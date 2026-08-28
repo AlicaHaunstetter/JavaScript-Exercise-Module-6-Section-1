@@ -53,11 +53,14 @@ function countTheCharacters(myWord) {
 // Beispiel: console.log(formatToCurrency(0.5)); // Ausgabe: "0,50€"
 
 
+// console.log(formatToCurrency(0.5));
+
+
+
 console.log(formatToCurrency(0.5));
 
 function formatToCurrency(number) {
     let fixed = number.toFixed(2);
     let withComma = fixed.replace('.', ',');
-    return withComma + '€';
+    return withComma + "€";
 }
-
