@@ -42,3 +42,16 @@ document.getElementById("meinAbsatz").classList.add("red_bg");
 function toggleDNone(id) {
     document.getElementById(id).classList.toggle("d-none");
 }
+
+
+
+
+function logValue(value) {
+    console.log(document.getElementById("alicas_input").value);
+    return value;
+}
+
+
+
+
+
